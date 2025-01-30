@@ -16,4 +16,10 @@ A simple and responsive profile card built with HTML, CSS, and JavaScript.
 ## 🔧 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo-url/profile-card.git
+   git clone https://github.com/your-repo-url/profile-card.git```
+   
+2. Navigate to the project folder:
+   ```bash
+    cd profile-card```
+
+3. Open index.html in a web browser.
