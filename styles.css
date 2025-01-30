@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -12,23 +12,23 @@ body {
    align-items: center;
    justify-content: center;
    background-color: #EFEFEF;
-   font-family: 'Mono';
+   font-family: 'Poppins', sans-serif;
+   padding: 10px;
+   font-size: 15px;
 }
 
 .card {
     position: relative;
     width: 400px;
-    height: 600px;
-    border: 2px solid #000;
-    border-radius: 5px;
+    border: 2px solid #4070f4;
+    border-radius: 8px;
     padding: 2px;
 }
 
 .profile-card {
-    border: 2px solid #000;
+    border: 2px solid #4070f4;
     padding: 5px;
-    border-radius: 5px;
-    height: 100%;
+    border-radius: 8px;
 }
 
 .profile-img {
@@ -54,4 +54,37 @@ body {
     align-items: center;
     padding: 10px 14px;
     gap: 5px;
+}
+
+.social-links a {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #4070f4;
+    border: 2px solid #4070f4;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.social-links a:hover {
+    background-color: #4070f4;
+    color: #FFF;
+}
+
+span {
+    font-weight: 700;
+}
+
+.left {
+    margin-left: -26px;
+}
+
+.time-content {
+    font-size: 12px;
+    font-weight: 500;
 }

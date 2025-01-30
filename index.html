@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -19,17 +20,23 @@
             </div>
             <div class="card-content">
                 <h2 data-testid="fullName">Japhet Paul Butawantemi</h2>
-            <h3 data-testid="jobTitle">Front-End Engineer</h3>
-            <p data-testid="shortBio">A passionate developer with expertise in front-end and back-end technologies,
-                eager to create impactful and user-friendly applications.</p>
-            <p data-testid="currentLocation">Dodoma, Tanzania</p>
-            <p data-testid="emailAddress">japhetbuta@gmail.com</p>
-            <div data-testid="socialLinks" class="social-links">
-                <a href="https://github.com/japhetbuta" target="_blank">GitHub</a>
-                <a href="https://twitter.com/japhetbuta" target="_blank">Twitter</a>
-                <a href="https://linkedin.com/in/japhetbuta" target="_blank">LinkedIn</a>
-            </div>
-            <p data-testid="currentTimeUTC" id="utc-time"></p>
+                <h3 data-testid="jobTitle">Front-End Engineer</h3>
+                <p data-testid="shortBio">I am a passionate Front-End Developer dedicated to crafting visually stunning
+                    and user-friendly web experiences. With expertise in React, Next.js, JavaScript, Tailwind CSS, and
+                    modern UI/UX principles, I thrive on bringing designs to life through clean, efficient, and
+                    maintainable code. My goal is to build seamless and interactive interfaces that enhance user
+                    engagement. Always eager to learn and collaborate, I stay updated with the latest front-end trends
+                    and best practices to create high-performance web applications.</p>
+                <p data-testid="currentLocation"><span class="left">Location: </span>Dodoma, Tanzania</p>
+                <p data-testid="emailAddress"><span>E-mail: </span>japhetbuta@gmail.com</p>
+                <div data-testid="socialLinks" class="social-links">
+                    <a href="https://www.linkedin.com/in/japhet-paul-butawantemi-b03231233/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Butawantemi"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/IamJaphetButa"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/iamjaphetbuta/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p data-testid="currentTimeUTC" id="utc-time" class="time-content"></p>
             </div>
         </div>
     </div>
