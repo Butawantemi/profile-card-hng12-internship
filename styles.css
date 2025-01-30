@@ -7,19 +7,21 @@
     box-sizing: border-box;
 }
 
-/* body styles */
+/* Body styles */
 body {
-   min-height: 100vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: #EFEFEF;
-   font-family: 'Poppins', sans-serif;
-   padding: 10px;
-   font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    gap: 10px;
 }
 
-/* Container Styles */
+/* Card container styles */
 .card {
     position: relative;
     width: 400px;
@@ -28,13 +30,14 @@ body {
     padding: 2px;
 }
 
-/* Profile card Styles */
+/* Profile card styles */
 .profile-card {
     border: 2px solid #4070f4;
     padding: 5px;
     border-radius: 8px;
 }
 
+/* Profile image styles */
 .profile-img {
     position: relative;
     width: 200px;
@@ -44,6 +47,7 @@ body {
     border-radius: 50%;
 }
 
+/* Styling for the profile image itself */
 .profile-img .profile-img {
     width: 100%;
     height: 100%;
@@ -51,7 +55,9 @@ body {
     object-fit: cover;
 }
 
-.img-content, .card-content {
+/* Flexbox for content alignment */
+.img-content,
+.card-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,6 +66,7 @@ body {
     gap: 5px;
 }
 
+/* Social links styling */
 .social-links a {
     text-decoration: none;
     display: inline-flex;
@@ -75,20 +82,33 @@ body {
     margin: 10px;
 }
 
+/* Hover effect for social links */
 .social-links a:hover {
     background-color: #4070f4;
     color: #FFF;
 }
 
+/* Styling for labels */
 span {
     font-weight: 700;
 }
 
+/* Adjustments for positioning */
 .left {
     margin-left: -26px;
 }
 
+/* Styling for the UTC time display */
 .time-content {
     font-size: 12px;
+    font-weight: 500;
+}
+
+/* Footer Styles */ 
+footer {
+    margin-top: 12%;
+}
+
+footer p {
     font-weight: 500;
 }

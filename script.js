@@ -1,8 +1,9 @@
-/* This script will update the time on the page every second. */
+// Function to update the UTC time dynamically
+const updateTime = () => {
+  const utcTimeElement = document.getElementById("utc-time"); // Select the UTC time element
+  const now = new Date(); // Get current date and time
+  utcTimeElement.textContent = `Current UTC Time: ${now.toUTCString()}`; // Set text content
+};
 
-const updateTime =() => {
-    const utcTimeElement = document.getElementById("utc-time");
-    const now = new Date();
-    utcTimeElement.textContent = `Current UTC Time: ${now}`;
-}
+// Call function to update time when the page loads
 updateTime();
