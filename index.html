@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="profile-card">
+            <div class="img-content">
+                <div class="profile-img">
+                    <img src="https://avatars.githubusercontent.com/u/125253893?v=4" alt="Profile Picture"
+                        data-testid="profilePicture" class="profile-img">
+                </div>
+            </div>
+            <div class="card-content">
+                <h2 data-testid="fullName">Japhet Paul Butawantemi</h2>
+            <h3 data-testid="jobTitle">Front-End Engineer</h3>
+            <p data-testid="shortBio">A passionate developer with expertise in front-end and back-end technologies,
+                eager to create impactful and user-friendly applications.</p>
+            <p data-testid="currentLocation">Dodoma, Tanzania</p>
+            <p data-testid="emailAddress">japhetbuta@gmail.com</p>
+            <div data-testid="socialLinks" class="social-links">
+                <a href="https://github.com/japhetbuta" target="_blank">GitHub</a>
+                <a href="https://twitter.com/japhetbuta" target="_blank">Twitter</a>
+                <a href="https://linkedin.com/in/japhetbuta" target="_blank">LinkedIn</a>
+            </div>
+            <p data-testid="currentTimeUTC" id="utc-time"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
